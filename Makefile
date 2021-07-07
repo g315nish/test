@@ -1,5 +1,5 @@
-make: main.c
+compile: main.c
       gcc -Wall -O -o main main.c -lm
       
-make clean: main.c
+clean: main.c
       rm main *~
